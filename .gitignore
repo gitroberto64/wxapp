@@ -1,0 +1,7 @@
+Debug/
+Release/
+build/
+_CPack_Packages/
+*~
+*.xrc
+*.swp
