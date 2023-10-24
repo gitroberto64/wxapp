@@ -7,11 +7,20 @@
             "label": "cmake-build",
             "type": "cmake",
             "command": "build",
-            "problemMatcher": [],
+            "problemMatcher": ["$gcc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "formbuilder",
+            "command": "wxformbuilder",
+            "args": [
+                "wxapp.fbp"
+            ],
+            "type": "shell",
+            "problemMatcher": []
         }
     ]
 }
